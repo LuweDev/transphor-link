@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:">
+<title>Transphor link</title>
+<style>
+  :root { --bg:#181a21; --card:#22252f; --text:#e8eaf0; --muted:#9aa0b0; --accent:#2dbeaa; --error:#e66; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:var(--bg); color:var(--text); font:16px/1.5 "Segoe UI", system-ui, sans-serif; padding:16px; }
+  main { background:var(--card); border-radius:14px; padding:28px; max-width:440px; width:100%; }
+  h1 { font-size:22px; margin:0 0 8px; }
+  p { color:var(--muted); margin:8px 0; }
+  .btn { display:block; width:100%; text-align:center; background:var(--accent); color:#0d1a18; font-weight:600;
+         border:0; border-radius:8px; padding:12px; font-size:16px; text-decoration:none; cursor:pointer; margin-top:16px; }
+  .btn.secondary { background:transparent; color:var(--text); border:1px solid #3a3e4b; }
+  .error { color:var(--error); }
+  small { color:var(--muted); display:block; margin-top:18px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <div id="ok" hidden>
+    <h1>Someone is sending you a file</h1>
+    <p>Your browser should ask to open Transphor. Choose <strong>Open</strong> and Transphor will show you who it's from before anything downloads.</p>
+    <a id="open" class="btn" href="#">Open in Transphor</a>
+    <button id="copy" class="btn secondary" type="button">Copy link code</button>
+    <small>Don't have Transphor? Ask the sender for the installer, install it, then click <strong>Open in Transphor</strong> again.
+      This page never sees your file and the link code stays in your browser.</small>
+  </div>
+  <div id="bad" hidden>
+    <h1>This link isn't complete</h1>
+    <p class="error">The link code is missing or damaged. Ask the sender to copy the whole link again.</p>
+  </div>
+</main>
+<script>
+  // The code is in the #fragment, which browsers never send to this website.
+  (function () {
+    var code = location.hash.slice(1).toLowerCase();
+    if (!/^tph1[a-z2-7]{20,1000}$/.test(code)) {
+      document.getElementById("bad").hidden = false;
+      return;
+    }
+    var appLink = "transphor://receive/" + code;
+    document.getElementById("ok").hidden = false;
+    document.getElementById("open").href = appLink;
+    document.getElementById("copy").onclick = function () {
+      var btn = this;
+      navigator.clipboard.writeText(code).then(function () { btn.textContent = "Copied"; });
+    };
+    location.href = appLink;
+  })();
+</script>
+</body>
+</html>
