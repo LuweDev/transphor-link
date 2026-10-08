@@ -1,8 +1,8 @@
 {
-  "version": "0.5.2",
-  "file": "Transphor-Setup-0.5.2.exe",
-  "size": 10700041,
-  "blake3": "4cceef8c0d3afd913d18ba51a49e0f0efeef2e32596587ac55f18064415df88b",
-  "notes": "New Transphor icon. The pop-up no longer gets stuck in the top left after Windows starts, and dragging text no longer opens it. Bigger settings and close buttons.",
-  "signature": "3d4ffbf6fe71ed85d26ecb44558caf9891b0cfd57d5d7223bd9c78b67192742a3b1c96e9f648fc03f96e8758f69e546eb046ac228d91ccc461b9430b75ee850f"
+  "version": "0.5.3",
+  "file": "Transphor-Setup-0.5.3.exe",
+  "size": 10699687,
+  "blake3": "11ce25dbdf77a7ae925aefd7b70dfd3c5f3bef144d98af15dddf09e024788e47",
+  "notes": "Direct transfers keep their speed instead of slowing down over time. The speed shown is the current one, and can be shown in Mbit/s. Hide my IP now needs the relay setting on.",
+  "signature": "23c5e2f7782904fc60acc3f8e2b8b666996c194cd944e39f0de1f77dcfdbbd1dd466c658f7cd67ca672a75af4ee8c1b87aaa3c5b69b79622d31dfd7562aebe0f"
 }
