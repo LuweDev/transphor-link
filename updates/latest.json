@@ -1,8 +1,8 @@
 {
-  "version": "0.5.1",
-  "file": "Transphor-Setup-0.5.1.exe",
-  "size": 10694321,
-  "blake3": "fa36a32e4154c5fde8f27900802c008607271b7d092f9638f8e8ca5dae46f731",
-  "notes": "New Transphor icon.",
-  "signature": "065ac65405a4c61ade54f5be1b48fef6b330e75f261022fb602ae8cc399c4356c89e94d335b84e4b406ca5670f1946a4bfcc82e16974777e12aa12b88afa5704"
+  "version": "0.5.2",
+  "file": "Transphor-Setup-0.5.2.exe",
+  "size": 10700041,
+  "blake3": "4cceef8c0d3afd913d18ba51a49e0f0efeef2e32596587ac55f18064415df88b",
+  "notes": "New Transphor icon. The pop-up no longer gets stuck in the top left after Windows starts, and dragging text no longer opens it. Bigger settings and close buttons.",
+  "signature": "3d4ffbf6fe71ed85d26ecb44558caf9891b0cfd57d5d7223bd9c78b67192742a3b1c96e9f648fc03f96e8758f69e546eb046ac228d91ccc461b9430b75ee850f"
 }
