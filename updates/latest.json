@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "file": "Transphor-Setup-0.4.0.exe",
-  "size": 10691519,
-  "blake3": "22ea22ee858c182246ec4ba33a2ddf35d36a415d8056b2ddb7add8d2ade09161",
-  "notes": "Links work while the Transphor box is open, a link box with Copy, more reliable drag pop-up, in-app updates and security fixes.",
-  "signature": "0e9da7f9809e62ff0971d8d5e70b4ca8c7464646cab192c2accf652ad4b52b218b91ec62e54e69d441db51dfa50fdca944f6d820fab337a54061d025efe76e09"
+  "version": "0.4.1",
+  "file": "Transphor-Setup-0.4.1.exe",
+  "size": 10694189,
+  "blake3": "13612a7ac75ec83f44db1a28a3b29c223694b4e019e632a7274818414516849c",
+  "notes": "The pop-up keeps the same size at any Windows scaling and is a little smaller. Hover over it after a drag to keep it open. It hides once a finished transfer's message clears.",
+  "signature": "c4aeabb8c5ebb81379072c90f85a86e3b7e8af7593e8ed39e706b566eb7a345a7fb65b0e65ebff38e95b9c0601ed395eef7cb4d3d90242c58cafc20d7408dc08"
 }
