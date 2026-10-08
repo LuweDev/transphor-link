@@ -1,8 +1,8 @@
 {
-  "version": "0.5.0",
-  "file": "Transphor-Setup-0.5.0.exe",
-  "size": 10681729,
-  "blake3": "e1d898d0907bd91ea583da80f20ac0c9d8b59d67ffe147fea5a726f7dca9e35d",
-  "notes": "Hides the sender's IP from anyone who only has the link, warns when there's not enough space, keeps links out of clipboard history, and makes updates safer. Both people need 0.5.0 to send files to each other.",
-  "signature": "94dcde4ba7fc4b19a7a7a3cfa21e49db3b9084fe473395b63723ecdb847bebfb5c0c98a6a4640097e449434badb073f4104168b8eb5f24903136ad308e2bc101"
+  "version": "0.5.1",
+  "file": "Transphor-Setup-0.5.1.exe",
+  "size": 10694321,
+  "blake3": "fa36a32e4154c5fde8f27900802c008607271b7d092f9638f8e8ca5dae46f731",
+  "notes": "New Transphor icon.",
+  "signature": "065ac65405a4c61ade54f5be1b48fef6b330e75f261022fb602ae8cc399c4356c89e94d335b84e4b406ca5670f1946a4bfcc82e16974777e12aa12b88afa5704"
 }
