@@ -1,8 +1,8 @@
 {
-  "version": "0.4.1",
-  "file": "Transphor-Setup-0.4.1.exe",
-  "size": 10694189,
-  "blake3": "13612a7ac75ec83f44db1a28a3b29c223694b4e019e632a7274818414516849c",
-  "notes": "The pop-up keeps the same size at any Windows scaling and is a little smaller. Hover over it after a drag to keep it open. It hides once a finished transfer's message clears.",
-  "signature": "c4aeabb8c5ebb81379072c90f85a86e3b7e8af7593e8ed39e706b566eb7a345a7fb65b0e65ebff38e95b9c0601ed395eef7cb4d3d90242c58cafc20d7408dc08"
+  "version": "0.5.0",
+  "file": "Transphor-Setup-0.5.0.exe",
+  "size": 10681729,
+  "blake3": "e1d898d0907bd91ea583da80f20ac0c9d8b59d67ffe147fea5a726f7dca9e35d",
+  "notes": "Hides the sender's IP from anyone who only has the link, warns when there's not enough space, keeps links out of clipboard history, and makes updates safer. Both people need 0.5.0 to send files to each other.",
+  "signature": "94dcde4ba7fc4b19a7a7a3cfa21e49db3b9084fe473395b63723ecdb847bebfb5c0c98a6a4640097e449434badb073f4104168b8eb5f24903136ad308e2bc101"
 }
