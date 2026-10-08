@@ -1,8 +1,8 @@
 {
-  "version": "0.5.3",
-  "file": "Transphor-Setup-0.5.3.exe",
-  "size": 10699687,
-  "blake3": "11ce25dbdf77a7ae925aefd7b70dfd3c5f3bef144d98af15dddf09e024788e47",
-  "notes": "Direct transfers keep their speed instead of slowing down over time. The speed shown is the current one, and can be shown in Mbit/s. Hide my IP now needs the relay setting on.",
-  "signature": "23c5e2f7782904fc60acc3f8e2b8b666996c194cd944e39f0de1f77dcfdbbd1dd466c658f7cd67ca672a75af4ee8c1b87aaa3c5b69b79622d31dfd7562aebe0f"
+  "version": "0.5.4",
+  "file": "Transphor-Setup-0.5.4.exe",
+  "size": 10743387,
+  "blake3": "caca34b03c77b9f6f6db07a5b868769a5e8efed5fab6e25d495f651bfe9d6468",
+  "notes": "Direct transfers keep their speed on connections that lose some packets, instead of slowing to a crawl.",
+  "signature": "5727e5b27dd5a593b47702d1fef6bc0a89f3b2db9332739df8062188b09b8d1c4a870f11d2a7661692c8fbce2d0401bbe643939de4dd131d5cf2763aaef4940c"
 }
