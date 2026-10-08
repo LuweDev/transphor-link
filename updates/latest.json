@@ -1,8 +1,8 @@
 {
-  "version": "0.5.4",
-  "file": "Transphor-Setup-0.5.4.exe",
-  "size": 10743387,
-  "blake3": "caca34b03c77b9f6f6db07a5b868769a5e8efed5fab6e25d495f651bfe9d6468",
-  "notes": "Direct transfers keep their speed on connections that lose some packets, instead of slowing to a crawl.",
-  "signature": "5727e5b27dd5a593b47702d1fef6bc0a89f3b2db9332739df8062188b09b8d1c4a870f11d2a7661692c8fbce2d0401bbe643939de4dd131d5cf2763aaef4940c"
+  "version": "0.5.5",
+  "file": "Transphor-Setup-0.5.5.exe",
+  "size": 10747924,
+  "blake3": "d0dd3581f1899e2692af65cd560599a9b73e4982f6fdd50c744975b8ecd0f380",
+  "notes": "A small note above the drop area now shows when an update is ready, with a Restart to update button.",
+  "signature": "d1087c5d8ea1610995eb0f110b5e23101225b329247d202d73b5221b418a37e1950459724fc11245ec1da360edd2c7610abb5b1c27e5535fad1bcd7fbd36020d"
 }
